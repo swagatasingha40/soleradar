@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="animateDiv(x)">
+    <div class="mycontainer">
+      <div class="landing" id="home">
+        <nav>
+          <div class="logo_and_text">
+            <div class="logo">
+              <img src="./Assets/Asset 1.svg" alt="" />
+            </div>
+          </div>
+          <div class="links">
+            <div class="navlinks"></div>
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#features">Features</a>
+              </li>
+              <li>
+                <a href="#sites">Sites</a>
+              </li>
+              <li>
+                <a href="#faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div id="shifter"></div>
+          <div class="navbtn">
+            <ul>
+              <li>
+                <a href="#" class="dashboardbtn">Dashboard </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="mobnav">
+          <div class="logo"><img src="./Assets/Asset 1.svg" alt="" /></div>
+          <div class="burger-container">
+            <div id="burger">
+              <div class="bar topBar"></div>
+              <div class="bar btmBar"></div>
+            </div>
+          </div>
+          <ul class="menu">
+            <li class="menu-item"><a href="#home">Home</a></li>
+            <li class="menu-item"><a href="#features">Features</a></li>
+            <li class="menu-item"><a href="#sites">Sites</a></li>
+            <li class="menu-item"><a href="#faq">FAQ</a></li>
+            <li class="menu-item">
+              <a href="#">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-wrapper">
+          <!-- copy -->
+          <div class="hero">
+            <span id="sign-1"
+              ><img src="./Assets/Group 7.svg" alt="" id="sign-1img"/ ></span
+            >
+            <span id="sign-2"
+              ><img src="./Assets/Group 7.svg" alt="" id="sign-2img"
+            /></span>
+            <span id="sign-3"
+              ><img src="./Assets/Group 7.svg" alt="" id="sign-3img"
+            /></span>
+            <span id="sign-4"
+              ><img src="./Assets/Group 7.svg" alt="" id="sign-4img"
+            /></span>
+            <span id="sign-5"
+              ><img src="./Assets/Ellipse 1.svg" alt="" id="sign-5img"
+            /></span>
+            <span id="sign-6"
+              ><img src="./Assets/Ellipse 1.svg" alt="" id="sign-6img"
+            /></span>
+            <span id="sign-7"
+              ><img src="./Assets/Ellipse 1.svg" alt="" id="sign-7img"
+            /></span>
+            <span id="star1"
+              ><img src="./Assets/Vector 3 (1).png" alt=""
+            /></span>
+            <span id="star2"><img src="./Assets/Vector 4.png" alt="" /></span>
+            <span id="star3"><img src="./Assets/Vector 1 (1).png" /></span>
+            <span id="star4"
+              ><img src="./Assets/Vector 2 (1).png" alt=""
+            /></span>
+            <div class="main">
+              <div class="heading">
+                Simplify your online shopping experience with Soleradar!
+              </div>
+              <div class="subheading">
+                We create in-house built solutions to provide you with
+                everything that you will need to take your reselling career to
+                the highest level.
+              </div>
+              <div class="buttons">
+                <div class="btn1">
+                  <a class="link1" href="#">Sold Out</a>
+                </div>
+                <div class="btn2">
+                  <a class="link2" href="#features">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-2-wrapper" id="features">
+          <div class="grid-container">
+            <div class="grid-wrapper">
+              <div class="grid-contents">
+                <div class="grid-box-1">
+                  <h3>Custom Extension</h3>
+                  <p>
+                    A browser integrated companion that will give you the
+                    competitive edge when every second maters. From carting
+                    products to completing checkouts it will assist you in
+                    securing those highly sought-after items any time of the
+                    day.
+                  </p>
+                </div>
+                <div class="grid-box-2">
+                  <h3>Custom Monitors</h3>
+                  <p>
+                    Tailored for the highest achievable performance our monitors
+                    are built from the ground up to ensure that you are always
+                    amongst the first ones to be notified. Whether you are on
+                    the road or at home our notifications will always keep you
+                    in the loop!
+                  </p>
+                </div>
+                <div class="grid-box-3">
+                  <h2>Authenticated</h2>
+                  <input type="checkbox" id="unchecked" class="cbx hidden" />
+                  <label for="unchecked" class="lbl"></label>
+
+                  <div class="inner-grid">
+                    <div class="inner-grid-1"><p id="p1">Naked</p></div>
+                    <div class="inner-grid-2"><p id="p2">Solebox</p></div>
+                    <div class="inner-grid-3"><p id="p3">Zalando</p></div>
+                    <div class="inner-grid-4"><p id="p4">Offspring</p></div>
+                    <div class="inner-grid-5"><p id="p5">Snipes</p></div>
+                    <div class="inner-grid-6"><p id="p6">SNS</p></div>
+                  </div>
+                </div>
+
+                <div class="grid-box-4">
+                  <div class="vert_tab">
+                    <button
+                      class="tablinks"
+                      onclick="openCity(event, 'analytics')"
+                    >
+                      # mesh
+                    </button>
+                    <!-- <button class="tablinks" onclick="openCity(event, 'tasks')"># Mesh</button> -->
+                    <button
+                      class="tablinks"
+                      onclick="openCity(event, 'profiles')"
+                      id="defaultOpen"
+                    >
+                      # zalando
+                    </button>
+                    <button
+                      class="tablinks"
+                      onclick="openCity(event, 'proxies')"
+                    >
+                      # supreme
+                    </button>
+                    <button
+                      class="tablinks"
+                      onclick="openCity(event, 'settings')"
+                    >
+                      # off-white
+                    </button>
+                    <!-- <button class="tablinks" onclick="openCity(event, 'supported')">Supported Sites</button> -->
+                  </div>
+                  <div class="g-4-pad">
+                    <div id="analytics" class="tabcontent">
+                      <!-- <h3 id = "verthead">Mesh</h3>
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                    </p> -->
+                      <img src="./Assets/Group 18.png" alt="" />
+                    </div>
+
+                    <!-- <div id="tasks" class="tabcontent">
+                                    <h3 id = "verthead">Tasks</h3>
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                        veritatis culpa, laudantium itaque officiis sint iure mollitia ad ratione. Quaerat, eligendi?
+                                    </p>
+                                    <img id = "vertui" src="./assets/taks_ui.svg">
+                    
+                                     
+                                  </div> -->
+
+                    <div id="profiles" class="tabcontent">
+                      <!-- <h3 id = "verthead">Zalando</h3>
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                    </p> -->
+                      <img src="./Assets/Group 18 (3).png" alt="" />
+                    </div>
+                    <div id="proxies" class="tabcontent">
+                      <!-- <h3 id = "verthead">Solebox</h3>
+                                    
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                    </p> -->
+                      <img src="./Assets/Group 18 (1).png" alt="" />
+                    </div>
+                    <div id="settings" class="tabcontent">
+                      <!-- <h3 id = "verthead">Snipes</h3>
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                    </p> -->
+                      <img src="./Assets/Group 18 (2).png" alt="" />
+                    </div>
+                    <!-- <div id="supported" class="tabcontent">
+                                    <h3 id = "verthead">Supported Sites</h3>
+                                    <p id="vertpara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat blanditiis expedita consequuntur a 
+                                        dolore hic libero eligendi, 
+                                        veritatis culpa, laudantium itaque officiis sint iure mollitia ad ratione. Quaerat, eligendi?
+                                    </p>
+                                    <img id = "vertui" src = "./assets/tab5_ui.svg">
+                                    
+                                  </div> -->
+                  </div>
+                </div>
+
+                <div class="grid-box-5">
+                  <img src="./Assets/Frame_1.svg" alt="" />
+                  <h3>Release Guidance</h3>
+                  <p>
+                    Members are kept up to date with all the latest information
+                    including site lists, raffles, early links and even stock
+                    numbers.
+                  </p>
+                </div>
+                <div class="grid-box-6">
+                  <img src="./Assets/Frame_2.svg" alt="" />
+                  <h3>Support Team</h3>
+                  <p>
+                    Our well experienced and dedicated staff team works around
+                    the clock every day to assist your needs.
+                  </p>
+                </div>
+                <div class="grid-box-7">
+                  <img src="./Assets/Frame_3.svg" alt="" />
+                  <h3>Groupbuys & Partnerships</h3>
+                  <p>
+                    We work closely with multiple businesses in the industry and
+                    provide our members with exclusive access to some of the
+                    best products.
+                  </p>
+                </div>
+                <div class="grid-box-8">
+                  <img src="./Assets/Frame_4.svg" alt="" />
+                  <h3>In-Store Information</h3>
+                  <p>
+                    Broaden your horizon with our in-store information and
+                    explore the possibilities of shopping in person.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-3-wrapper" id="sites">
+          <div class="supported_websites">
+            <h3>Supported Websites</h3>
+
+            <div class="websites">
+              <div class="website-row-1">
+                <div class="website-col-1" id="d1">
+                  <img src="./Assets/zalando-2 2.svg" alt="" id="i1" />
+                </div>
+                <div class="website-col-2">
+                  <img
+                    src="./Assets/608-6085511_slam-jam-socialism-slam-jam-socialism-logo 1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="website-col-3" id="d3">
+                  <img src="./Assets/Group.svg" alt="" id="i3" />
+                </div>
+                <div class="website-col-4">
+                  <img src="./Assets/footpatrol-seeklogo.com 1.png" alt="" />
+                </div>
+              </div>
+              <div class="website-row-2">
+                <div class="website-col-5">
+                  <img src="./Assets/off-white-logo 1.svg" alt="" />
+                </div>
+                <div class="website-col-6" id="d6">
+                  <img src="./Assets/offspring-dude-red 1.svg" alt="" id="i6" />
+                </div>
+                <div class="website-col-7">
+                  <img
+                    src="./Assets/solebox_logo 1.svg
+                                "
+                    alt=""
+                  />
+                </div>
+                <div class="website-col-8" id="d8">
+                  <img src="./Assets/Frame.svg" alt="" id="i8" />
+                </div>
+                <div class="website-col-9">
+                  <img src="./Assets/jd sports.svg" alt="" id="jd" />
+                </div>
+              </div>
+              <div class="website-row-3">
+                <p>Many more sites and regions supported</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-4-wrapper" id="faq">
+          <div class="FAQ_with_kutta">
+            <div class="clearfix1">
+              <h2 class="acc_feature_subheading" id="fleft">
+                Frequently Asked Questions
+              </h2>
+            </div>
+            <div class="accordian">
+              <div class="accordian-item">
+                <div class="accordian-item-header">
+                  <h4>How much is Soleradar?</h4>
+                </div>
+                <div class="accordian-item-body">
+                  <div class="accordian-item-body-content">
+                    <p>
+                      Soleradar currently retails for €45 monthly with our beta
+                      members being kept on our original price plan of €40 a
+                      month.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordian-item">
+                <div class="accordian-item-header">
+                  <h4>What regions do you guys focus on?</h4>
+                </div>
+                <div class="accordian-item-body">
+                  <div class="accordian-item-body-content">
+                    <p>
+                      Our main focus is currently on the United Kingdom and
+                      European countries. Regardless of that we still support
+                      sites across Asia and Australia as well.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordian-item">
+                <div class="accordian-item-header">
+                  <h4>How do I obtain a Soleradar membership?</h4>
+                </div>
+                <div class="accordian-item-body">
+                  <div class="accordian-item-body-content">
+                    <p>
+                      You can purchase a monthly Soleradar membership from
+                      occasional, limited restocks. These events are usually
+                      pre-announced on our social media platforms.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="accordian-item">
+                            <div class="accordian-item-header">
+                                <h4>
+                                    How can I receive support after purchasing Dino?
+                                </h4>
+                            </div>
+                            <div class="accordian-item-body">
+                                <div class="accordian-item-body-content">
+                                    <p>
+                                        You can find an efficient support experience into our Discord server
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_wrapper">
+          <footer>
+            <div class="upper_footer">
+              <div class="logo_and_text1">
+                <div class="logo">
+                  <img src="./Assets/Asset 1.svg" alt="" />
+                </div>
+              </div>
+              <div class="list">
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#sites">Sites</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+                </ul>
+              </div>
+
+              <div class="list2">
+                <ul>
+                  <li>
+                    <a>Terms & Conditions</a>
+                    <a>Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="list2" id="l2">
+                <ul>
+                  <li>
+                    <a>Contact us</a>
+                    <a>Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      (function () {
+        var burger = document.querySelector(".burger-container"),
+          header = document.querySelector(".mobnav");
+        burger.onclick = function () {
+          header.classList.toggle("menu-opened");
+          document.querySelector(".menu").classList.toggle("visible");
+        };
+        $(".menu-item").click(function () {
+          header.classList.toggle("menu-opened");
+          document.querySelector(".menu").classList.toggle("visible");
+        });
+      })();
+    </script>
+
+    <!-- GSAP -->
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      const tl = new TimelineMax();
+      const nav = document.querySelector("nav");
+      gsap.fromTo(
+        ".primarytext",
+        1,
+        {
+          transform: "translateX(-100vw)",
+        },
+        {
+          transform: "translateX(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+      gsap.fromTo(
+        ".purchase",
+        1,
+        {
+          opacity: 0,
+          transform: "translateX(-100vw)",
+        },
+        {
+          opacity: 1,
+          transform: "translateX(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+      gsap.fromTo(
+        ".secondarytext",
+        1,
+        {
+          opacity: 0,
+          transform: "translateX(-100vw)",
+        },
+        {
+          opacity: 1,
+          transform: "translateX(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+      gsap.fromTo(
+        ".UI",
+        1,
+        {
+          opacity: 0,
+          transform: "translateX(100vw)",
+        },
+        {
+          opacity: 1,
+          transform: "translateX(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+      gsap.fromTo(
+        ".mobnav",
+        1,
+        {
+          transform: "translateY(-20vw)",
+        },
+        {
+          transform: "translateY(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+      gsap.fromTo(
+        nav,
+        1,
+        {
+          transform: "translateY(-10vw)",
+        },
+        {
+          transform: "translateY(0px)",
+          clearProps: "transform",
+          ease: Power2.easeInOut,
+        }
+      );
+
+      gsap.fromTo(
+        ".section-4-wrapper",
+        1,
+        {
+          transform: "translateY(10vw)",
+          opacity: 0,
+        },
+        {
+          transform: "translateY(0vw)",
+          opacity: 1,
+          ease: Power2.easeInOut,
+          clearProps: "transform",
+          scrollTrigger: {
+            trigger: ".section-2-wrapper",
+            start: "0px 0px",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+
+      gsap.fromTo(
+        ".section-3-wrapper",
+        1,
+        {
+          transform: "translateY(10vw)",
+          opacity: 0,
+        },
+        {
+          transform: "translateY(0vw)",
+          opacity: 1,
+          ease: Power2.easeInOut,
+          clearProps: "transform",
+          scrollTrigger: {
+            trigger: ".section-2-wrapper",
+            start: "0px 0px",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+
+      gsap.fromTo(
+        ".section-2-wrapper",
+        1,
+        {
+          transform: "translateY(10vw)",
+          opacity: 0,
+        },
+        {
+          transform: "translateY(0vw)",
+          opacity: 1,
+          ease: Power2.easeInOut,
+          clearProps: "transform",
+          scrollTrigger: {
+            trigger: ".hero-wrapper",
+            start: "0px 0px",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    </script>
+
+    <!-- 2nd PART grid-4 -->
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#sign-1img").hide();
+        $("#sign-1img").delay(1000).width("0.5vw").show(500);
+        $("#sign-1img").delay(500).width("1.5vw");
+
+        $("#sign-2img").hide();
+        $("#sign-2img").delay(500).width("0.5vw").show(500);
+        $("#sign-2img").delay(500).width("1.5vw");
+
+        $("#sign-3img").hide();
+        $("#sign-3img").delay(300).width("0.5vw").show(500);
+        $("#sign-3img").delay(500).width("1.5vw");
+
+        $("#sign-4img").hide();
+        $("#sign-4img").delay(700).width("0.5vw").show(500);
+        $("#sign-4img").width("1.5vw");
+
+        $("#sign-5img").hide();
+        $("#sign-5img").delay(2000).width("0.5vw").show(500);
+        $("#sign-5img").width("1.5vw");
+
+        $("#sign-6img").hide();
+        $("#sign-6img").delay(900).width("0.5vw").show(500);
+        $("#sign-6img").width("1.5vw");
+
+        $("#sign-7img").hide();
+        $("#sign-7img").delay(2200).width("0.5vw").show(500);
+        $("#sign-7img").width("1.5vw");
+
+        $("#sign-8img").hide();
+        $("#sign-8img").delay(1500).width("0.5vw").show(500);
+        $("#sign-8img").width("1.5vw");
+
+        if (window.matchMedia("(max-width: 560px)").matches) {
+          $("#sign-1img").hide();
+          $("#sign-1img").delay(1000).width("0.5vw").show(500);
+          $("#sign-1img").delay(500).width("2.5vw");
+
+          $("#sign-2img").hide();
+          $("#sign-2img").delay(500).width("0.5vw").show(500);
+          $("#sign-2img").delay(500).width("2.5vw");
+
+          $("#sign-3img").hide();
+          $("#sign-3img").delay(300).width("0.5vw").show(500);
+          $("#sign-3img").delay(500).width("2.5vw");
+
+          $("#sign-4img").hide();
+          $("#sign-4img").delay(700).width("0.5vw").show(500);
+          $("#sign-4img").width("2.5vw");
+
+          $("#sign-5img").hide();
+          $("#sign-5img").delay(2000).width("0.5vw").show(500);
+          $("#sign-5img").width("2.5vw");
+
+          $("#sign-6img").hide();
+          $("#sign-6img").delay(900).width("0.5vw").show(500);
+          $("#sign-6img").width("2.5vw");
+
+          $("#sign-7img").hide();
+          $("#sign-7img").delay(2200).width("0.5vw").show(500);
+          $("#sign-7img").width("2.5vw");
+
+          $("#sign-8img").hide();
+          $("#sign-8img").delay(1500).width("0.5vw").show(500);
+          $("#sign-8img").width("2.5vw");
+        }
+      });
+    </script>
+    <script>
+      var x = window.matchMedia("(max-width: 560px)");
+      myFunction(x); // Call listener function at run time
+      x.addListener(myFunction); // Attach listener function on state changes
+      function animateDiv(x) {
+        var popup = document.getElementById("star3");
+        var popup2 = document.getElementById("star4");
+        var popup3 = document.getElementById("star2");
+        var popup4 = document.getElementById("star1");
+        popup.style.top = "15vw";
+        popup.style.left = "0vw";
+        popup2.style.top = "20vw";
+        popup2.style.left = "0vw";
+        popup3.style.bottom = "40%";
+        popup3.style.left = "93vw";
+        popup4.style.bottom = "30%";
+        popup4.style.left = "95vw";
+
+        if (x.matches) {
+          popup.style.top = "15vw";
+          popup.style.left = "0vw";
+          popup2.style.top = "20vw";
+          popup2.style.left = "0vw";
+          popup3.style.bottom = "40%";
+          popup3.style.left = "93vw";
+          popup4.style.bottom = "30%";
+          popup4.style.left = "95vw";
+        }
+      }
+    </script>
+    <!-- Supported websites -->
+    <!-- <script>
+      
+      const images = ["./Assets/zalando-2 2.png", "./Assets/Group.png"];
+      const color = ["rgba(255, 105, 0, 1)", "rgba(253, 29, 43, 1)"];
+      const images2 = [
+        "./Assets/offspring-dude-red 1.png",
+        "./Assets/Frame.png",
+      ];
+      const color2 = ["rgba(195, 23, 53, 1)", "rgba(247, 92, 26, 1)"];
+      let i = 0;
+      let j = 1;
+      function change() {
+        document.getElementById("i1").src = images[i];
+        document.getElementById("d1").style.background = color[i];
+        document.getElementById("i3").src = images[j];
+        document.getElementById("d3").style.background = color[j];
+        document.getElementById("i6").src = images2[i];
+        document.getElementById("d6").style.background = color2[i];
+        document.getElementById("i8").src = images2[j];
+        document.getElementById("d8").style.background = color2[j];
+
+        if (i == 1) {
+          i = 0;
+          document.getElementById("i1").style.paddingTop = "3.5vw";
+          document.getElementById("i1").style.width = "10vw";
+          document.getElementById("i1").style.height = "3vw";
+
+          document.getElementById("i6").style.paddingTop = "3.5vw";
+          document.getElementById("i6").style.width = "9vw";
+          document.getElementById("i6").style.height = "2.5vw";
+        } else {
+          i = 1;
+          document.getElementById("i1").style.paddingTop = "3.5vw";
+          document.getElementById("i1").style.width = "13vw";
+          document.getElementById("i1").style.height = "3vw";
+
+          document.getElementById("i6").style.paddingTop = "1.8vw";
+          document.getElementById("i6").style.width = "8vw";
+          document.getElementById("i6").style.height = "6.5vw";
+        }
+
+        if (j == 1) {
+          j = 0;
+          document.getElementById("i3").style.paddingTop = "3.5vw";
+          document.getElementById("i3").style.width = "10vw";
+          document.getElementById("i3").style.height = "3vw";
+
+          document.getElementById("i8").style.paddingTop = "3.5vw";
+          document.getElementById("i8").style.width = "9vw";
+          document.getElementById("i8").style.height = "2.5vw";
+        } else {
+          j = 1;
+          document.getElementById("i3").style.paddingTop = "3.5vw";
+          document.getElementById("i3").style.width = "13vw";
+          document.getElementById("i3").style.height = "3vw";
+
+          document.getElementById("i8").style.paddingTop = "1.8vw";
+          document.getElementById("i8").style.width = "8vw";
+          document.getElementById("i8").style.height = "6.5vw";
+        }
+      }
+      setInterval(change, 2000);
+    </script> -->
+
+    <!-- FAQ -->
+    <script>
+      const accordianItemHeaders = document.querySelectorAll(
+        ".accordian-item-header"
+      );
+
+      accordianItemHeaders.forEach((accordianItemHeader) => {
+        accordianItemHeader.addEventListener("click", () => {
+          const current = document.querySelector(
+            ".accordian-item-header.active"
+          );
+
+          if (current && current !== accordianItemHeader) {
+            current.classList.toggle("active");
+            current.nextElementSibling.style.maxHeight = 0;
+          }
+          accordianItemHeader.classList.toggle("active");
+
+          const accordianItemBody = accordianItemHeader.nextElementSibling;
+
+          if (accordianItemHeader.classList.contains("active")) {
+            accordianItemBody.style.maxHeight =
+              accordianItemBody.scrollHeight + "px";
+          } else {
+            accordianItemBody.style.maxHeight = 0;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
